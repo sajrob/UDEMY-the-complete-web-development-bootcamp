@@ -8,16 +8,35 @@
 </head>
 <body>
     <script>
+
+        alert("This is a solution to the 99 Bottles Challenge. Press ok and sing along")
+
+
         beer()
+
+        // main function
         function beer(){
-        var count = 99;
-             while (count > 0 ) {
-                 alert(count + " bottles of beer on the wall, " + count + " bottles of beer. /nTake one down and pass it around, ")
+             var count = 99;
+
+            // using FOR LOOPS
+            for (count = 3; count > 0;) {
+                alert(count + " bottles of beer on the wall, " + count + " bottles of beer. \nTake one down and pass it around, ")
                  count--;
                  alert(count + " bottles of beer on the wall.")
             }
 
 
+            // // using WHILE LOOP
+           
+            //  while (count > 0 ) {
+            //      alert(count + " bottles of beer on the wall, " + count + " bottles of beer. \nTake one down and pass it around, ")
+            //      count--;
+            //      alert(count + " bottles of beer on the wall.")
+            // }
+
+
+
+           
         }
     </script>
     
